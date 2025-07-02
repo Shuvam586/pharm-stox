@@ -1,6 +1,10 @@
+import Profile from "@/components/profile";
+
 function Dash() {
     return (
-        <p>lmao ki holo eta</p>
+        <div className="w-full h-screen grid place-items-center">
+            <Profile />
+        </div>
     )
 }
 
